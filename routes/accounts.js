@@ -17,6 +17,10 @@ router.post('/', async (req, res, next) => {
     await writeFile(global.fileName, JSON.stringify(data, null, '\t'));
 
     res.send(account);
+
+    global.logger.info(
+      `${req.method} ${req.baseUrl} - ${JSON.stringify(account)}`
+    );
   } catch (err) {
     next(err);
   }
@@ -27,6 +31,8 @@ router.get('/', async (req, res, next) => {
     const data = JSON.parse(await readFile(global.fileName));
     delete data.nextId; // info not important to be returned
     res.send(data);
+
+    global.logger.info(`${req.method} ${req.baseUrl}`);
   } catch (err) {
     next(err);
   }
@@ -35,10 +41,12 @@ router.get('/', async (req, res, next) => {
 router.get('/:id', async (req, res, next) => {
   try {
     const data = JSON.parse(await readFile(global.fileName));
-    const account = res.send(
-      data.accounts.find((account) => account.id === parseInt(req.params.id))
+    const account = data.accounts.find(
+      (account) => account.id === parseInt(req.params.id)
     );
     res.send(account);
+
+    global.logger.info(`${req.method} ${req.baseUrl} - ${req.params.id}`);
   } catch (err) {
     next(err);
   }
@@ -52,6 +60,7 @@ router.delete('/:id', async (req, res, next) => {
     );
     await writeFile(global.fileName, JSON.stringify(data, null, '\t'));
     res.end();
+    global.logger.info(`${req.method} ${req.baseUrl} - ${req.params.id}`);
   } catch (err) {
     next(err);
   }
@@ -67,6 +76,9 @@ router.put('/', async (req, res, next) => {
 
     await writeFile(global.fileName, JSON.stringify(data, null, '\t'));
     res.send(account);
+    global.logger.info(
+      `${req.method} ${req.baseUrl} - ${JSON.stringify(account)}`
+    );
   } catch (err) {
     next(err);
   }
@@ -82,13 +94,16 @@ router.patch('/updateBalance', async (req, res, next) => {
 
     await writeFile(global.fileName, JSON.stringify(data, null, '\t'));
     res.send(data.accounts[index]);
+    global.logger.info(
+      `${req.method} ${req.baseUrl} - ${JSON.stringify(data.accounts[index])}`
+    );
   } catch (err) {
     next(err);
   }
 });
 
 router.use((err, req, res, next) => {
-  console.log(err);
+  global.logger.error(`${req.method} ${req.baseUrl} - ${err.message}`);
   res.status(400).send({ error: err.message });
 });
 

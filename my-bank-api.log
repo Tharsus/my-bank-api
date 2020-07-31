@@ -1,0 +1,185 @@
+2020-07-30T23:58:13.215Z [my-label-api] info: API Started.
+2020-07-30T23:58:18.407Z [my-label-api] info: API Started.
+2020-07-30T23:58:51.834Z [my-label-api] info: API Started.
+2020-07-30T23:58:56.818Z [my-label-api] info: API Started.
+2020-07-30T23:59:19.550Z [my-label-api] info: API Started.
+2020-07-30T23:59:24.348Z [my-label-api] info: API Started.
+2020-07-30T23:59:25.201Z [my-label-api] info: API Started.
+2020-07-30T23:59:33.324Z [my-label-api] info: API Started.
+2020-07-30T23:59:39.353Z [my-label-api] info: API Started.
+2020-07-30T23:59:44.916Z [my-label-api] info: API Started.
+2020-07-31T00:00:14.061Z [my-label-api] info: API Started.
+2020-07-31T00:00:19.070Z [my-label-api] info: API Started.
+2020-07-31T00:00:19.604Z [my-label-api] info: API Started.
+2020-07-31T00:00:23.496Z [my-label-api] info: API Started.
+2020-07-31T00:01:25.383Z [my-label-api] info: API Started.
+2020-07-31T00:01:30.115Z [my-label-api] info: API Started.
+2020-07-31T00:06:49.432Z [my-label-api] info: API Started and file created.
+2020-07-31T00:06:49.777Z [my-label-api] info: API Started.
+2020-07-31T00:06:55.406Z [my-label-api] info: API Started.
+2020-07-31T00:06:55.966Z [my-label-api] info: API Started.
+2020-07-31T00:07:51.006Z [my-label-api] info: API Started.
+2020-07-31T00:07:54.727Z [my-label-api] info: API Started.
+2020-07-31T00:07:57.370Z [my-label-api] info: API Started.
+2020-07-31T00:08:00.868Z [my-label-api] info: API Started.
+2020-07-31T00:08:08.256Z [my-label-api] info: API Started.
+2020-07-31T00:08:16.242Z [my-label-api] info: API Started.
+2020-07-31T00:08:21.014Z [my-label-api] info: API Started.
+2020-07-31T00:10:18.009Z [my-label-api] info: API Started and file created.
+2020-07-31T00:10:18.337Z [my-label-api] info: API Started.
+2020-07-31T00:10:22.854Z [my-label-api] info: API Started.
+2020-07-31T00:10:23.416Z [my-label-api] info: API Started.
+2020-07-31T00:10:27.858Z [my-label-api] error: GET /accounts - ENOENT: no such file or directory, open 'C:\Users\tharsus.proux.BRNCSP010129\OneDrive - poli.ufrj.br\Bootcamp\Code\Mod2\aula8-my-bank-api\accounts.json'
+2020-07-31T00:10:44.579Z [my-label-api] error: GET /accounts - ENOENT: no such file or directory, open 'C:\Users\tharsus.proux.BRNCSP010129\OneDrive - poli.ufrj.br\Bootcamp\Code\Mod2\aula8-my-bank-api\accounts.json'
+2020-07-31T00:10:54.672Z [my-label-api] error: POST /accounts - ENOENT: no such file or directory, open 'C:\Users\tharsus.proux.BRNCSP010129\OneDrive - poli.ufrj.br\Bootcamp\Code\Mod2\aula8-my-bank-api\accounts.json'
+2020-07-31T00:53:43.518Z [my-label-api] info: API Started and file created.
+2020-07-31T00:53:43.851Z [my-label-api] info: API Started.
+2020-07-31T00:53:48.313Z [my-label-api] info: API Started.
+2020-07-31T00:53:48.979Z [my-label-api] info: API Started.
+2020-07-31T00:54:18.111Z [my-label-api] info: API Started.
+2020-07-31T00:54:23.507Z [my-label-api] info: API Started.
+2020-07-31T00:54:32.838Z [my-label-api] info: API Started.
+2020-07-31T00:54:37.928Z [my-label-api] info: API Started.
+2020-07-31T00:54:55.527Z [my-label-api] info: API Started.
+2020-07-31T00:54:59.952Z [my-label-api] info: API Started.
+2020-07-31T00:55:13.901Z [my-label-api] info: API Started.
+2020-07-31T00:55:19.698Z [my-label-api] info: API Started.
+2020-07-31T00:55:46.620Z [my-label-api] info: API Started.
+2020-07-31T00:55:51.192Z [my-label-api] info: API Started.
+2020-07-31T00:56:17.443Z [my-label-api] info: API Started.
+2020-07-31T00:56:25.695Z [my-label-api] info: API Started.
+2020-07-31T00:57:01.487Z [my-label-api] info: API Started.
+2020-07-31T00:57:07.091Z [my-label-api] info: API Started.
+2020-07-31T00:57:14.278Z [my-label-api] info: API Started.
+2020-07-31T00:57:19.651Z [my-label-api] info: API Started.
+2020-07-31T00:57:59.116Z [my-label-api] info: API Started.
+2020-07-31T00:58:05.302Z [my-label-api] info: API Started.
+2020-07-31T00:58:23.158Z [my-label-api] info: API Started.
+2020-07-31T00:58:28.585Z [my-label-api] info: API Started.
+2020-07-31T00:58:33.928Z [my-label-api] info: API Started.
+2020-07-31T00:58:56.829Z [my-label-api] info: POST /accounts - {"id":1,"name":"Ingrid","balance":2200}
+2020-07-31T00:58:57.172Z [my-label-api] info: API Started.
+2020-07-31T00:59:01.597Z [my-label-api] info: API Started.
+2020-07-31T00:59:18.020Z [my-label-api] info: POST /accounts - {"id":2,"name":"Laura","balance":400}
+2020-07-31T00:59:18.368Z [my-label-api] info: API Started.
+2020-07-31T00:59:22.961Z [my-label-api] info: API Started.
+2020-07-31T01:00:28.965Z [my-label-api] info: GET /accounts
+2020-07-31T01:00:36.262Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:01:46.953Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:03:55.165Z [my-label-api] info: API Started.
+2020-07-31T01:03:59.977Z [my-label-api] info: API Started.
+2020-07-31T01:04:32.007Z [my-label-api] info: API Started.
+2020-07-31T01:04:36.064Z [my-label-api] info: API Started.
+2020-07-31T01:04:36.150Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:05:18.659Z [my-label-api] info: GET /accounts
+2020-07-31T01:05:30.347Z [my-label-api] info: API Started.
+2020-07-31T01:05:33.039Z [my-label-api] info: GET /accounts
+2020-07-31T01:05:34.924Z [my-label-api] info: API Started.
+2020-07-31T01:05:44.831Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:05:54.784Z [my-label-api] info: GET /accounts
+2020-07-31T01:07:37.878Z [my-label-api] info: API Started.
+2020-07-31T01:07:43.412Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:07:44.044Z [my-label-api] info: API Started.
+2020-07-31T01:07:59.100Z [my-label-api] info: API Started.
+2020-07-31T01:08:02.063Z [my-label-api] info: GET /accounts
+2020-07-31T01:08:04.162Z [my-label-api] info: API Started.
+2020-07-31T01:08:10.700Z [my-label-api] info: API Started.
+2020-07-31T01:08:12.866Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:08:15.833Z [my-label-api] info: API Started.
+2020-07-31T01:08:18.502Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:09:30.581Z [my-label-api] info: API Started.
+2020-07-31T01:09:34.507Z [my-label-api] info: API Started.
+2020-07-31T01:09:58.363Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:10:17.593Z [my-label-api] info: API Started.
+2020-07-31T01:10:21.874Z [my-label-api] info: API Started.
+2020-07-31T01:11:26.859Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:26:04.124Z [my-label-api] info: API Started.
+2020-07-31T01:26:10.377Z [my-label-api] info: API Started.
+2020-07-31T01:26:13.591Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:27:01.760Z [my-label-api] info: API Started.
+2020-07-31T01:27:05.234Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:27:08.313Z [my-label-api] info: API Started.
+2020-07-31T01:27:47.143Z [my-label-api] info: API Started.
+2020-07-31T01:27:49.273Z [my-label-api] info: API Started.
+2020-07-31T01:27:51.644Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:27:55.261Z [my-label-api] info: API Started.
+2020-07-31T01:28:23.657Z [my-label-api] error: GET /accounts - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2020-07-31T01:28:26.408Z [my-label-api] info: GET /accounts
+2020-07-31T01:28:41.891Z [my-label-api] info: PATCH /accounts - {"id":2,"balance":5500}
+2020-07-31T01:28:42.216Z [my-label-api] info: API Started.
+2020-07-31T01:28:46.707Z [my-label-api] info: API Started.
+2020-07-31T01:29:23.212Z [my-label-api] info: API Started.
+2020-07-31T01:29:24.464Z [my-label-api] info: PATCH /accounts - {"id":2,"name":"Laura","balance":5500}
+2020-07-31T01:29:24.810Z [my-label-api] info: API Started.
+2020-07-31T01:29:27.085Z [my-label-api] info: API Started.
+2020-07-31T01:29:31.305Z [my-label-api] info: API Started.
+2020-07-31T01:29:53.717Z [my-label-api] info: PUT /accounts - {"id":2,"name":"Belly","balance":2500}
+2020-07-31T01:29:54.040Z [my-label-api] info: API Started.
+2020-07-31T01:29:58.757Z [my-label-api] info: API Started.
+2020-07-31T01:30:16.319Z [my-label-api] info: DELETE /accounts - 2
+2020-07-31T01:30:16.651Z [my-label-api] info: API Started.
+2020-07-31T01:30:21.231Z [my-label-api] info: API Started.
+2020-07-31T01:31:16.938Z [my-label-api] info: API Started.
+2020-07-31T01:31:21.006Z [my-label-api] info: GET /accounts/:id
+2020-07-31T01:31:22.857Z [my-label-api] info: API Started.
+2020-07-31T01:31:46.182Z [my-label-api] info: API Started.
+2020-07-31T01:31:47.812Z [my-label-api] info: GET /accounts
+2020-07-31T01:31:51.438Z [my-label-api] info: API Started.
+2020-07-31T01:33:10.525Z [my-label-api] info: API Started.
+2020-07-31T01:33:13.004Z [my-label-api] info: GET /accounts - 1
+2020-07-31T01:33:14.992Z [my-label-api] info: API Started.
+2020-07-31T01:33:36.398Z [my-label-api] info: DELETE /accounts - 1
+2020-07-31T01:33:36.743Z [my-label-api] info: API Started.
+2020-07-31T01:33:41.627Z [my-label-api] info: API Started.
