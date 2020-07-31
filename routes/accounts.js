@@ -8,9 +8,18 @@ const router = express.Router();
 router.post('/', async (req, res, next) => {
   try {
     let account = req.body;
+
+    if (!account.name || account.balance == null) {
+      throw new Error("Fields 'name' and 'balance' are required.");
+    }
+
     const data = JSON.parse(await readFile(global.fileName));
 
-    account = { id: data.nextId, ...account };
+    account = {
+      id: data.nextId,
+      name: account.name,
+      balance: account.balance,
+    };
     data.nextId++;
     data.accounts.push(account);
 
@@ -69,15 +78,25 @@ router.delete('/:id', async (req, res, next) => {
 router.put('/', async (req, res, next) => {
   try {
     let account = req.body;
+
+    if (!account.id || !account.name || account.balance == null) {
+      throw new Error("Fields 'id', 'name' and 'balance' are required.");
+    }
+
     const data = JSON.parse(await readFile(global.fileName));
     const index = data.accounts.findIndex((acc) => acc.id === account.id);
 
-    data.accounts[index] = account;
+    if (index === -1) {
+      throw new Error("Couldn't find the record.");
+    }
+
+    data.accounts[index].name = account.name;
+    data.accounts[index].balance = account.balance;
 
     await writeFile(global.fileName, JSON.stringify(data, null, '\t'));
-    res.send(account);
+    res.send(data.accounts[index]);
     global.logger.info(
-      `${req.method} ${req.baseUrl} - ${JSON.stringify(account)}`
+      `${req.method} ${req.baseUrl} - ${JSON.stringify(data.accounts[index])}`
     );
   } catch (err) {
     next(err);
@@ -87,8 +106,17 @@ router.put('/', async (req, res, next) => {
 router.patch('/updateBalance', async (req, res, next) => {
   try {
     let account = req.body;
+
+    if (!account.id || account.balance == null) {
+      throw new Error("Fields 'id' and 'balance' are required.");
+    }
+
     const data = JSON.parse(await readFile(global.fileName));
     const index = data.accounts.findIndex((acc) => acc.id === account.id);
+
+    if (index === -1) {
+      throw new Error("Couldn't find the record.");
+    }
 
     data.accounts[index].balance = account.balance;
 

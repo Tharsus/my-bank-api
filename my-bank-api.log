@@ -183,3 +183,70 @@
 2020-07-31T01:33:36.398Z [my-label-api] info: DELETE /accounts - 1
 2020-07-31T01:33:36.743Z [my-label-api] info: API Started.
 2020-07-31T01:33:41.627Z [my-label-api] info: API Started.
+2020-07-31T01:35:52.919Z [my-label-api] info: API Started.
+2020-07-31T01:35:58.564Z [my-label-api] info: API Started.
+2020-07-31T01:37:05.491Z [my-label-api] info: API Started.
+2020-07-31T01:37:09.620Z [my-label-api] info: API Started.
+2020-07-31T01:37:26.500Z [my-label-api] info: API Started.
+2020-07-31T01:37:32.322Z [my-label-api] info: API Started.
+2020-07-31T01:37:47.781Z [my-label-api] info: API Started.
+2020-07-31T01:37:54.746Z [my-label-api] info: API Started.
+2020-07-31T01:38:14.791Z [my-label-api] info: API Started.
+2020-07-31T01:38:19.761Z [my-label-api] info: API Started.
+2020-07-31T01:38:32.987Z [my-label-api] info: API Started.
+2020-07-31T01:38:38.157Z [my-label-api] info: API Started.
+2020-07-31T01:38:51.577Z [my-label-api] info: GET /accounts
+2020-07-31T01:39:00.061Z [my-label-api] error: POST /accounts - Fields 'name' and 'balance' are required.
+2020-07-31T01:39:29.225Z [my-label-api] info: API Started.
+2020-07-31T01:39:30.398Z [my-label-api] error: POST /accounts - Fields "name" and "balance" are required.
+2020-07-31T01:39:36.652Z [my-label-api] info: API Started.
+2020-07-31T01:39:54.872Z [my-label-api] info: API Started.
+2020-07-31T01:39:56.706Z [my-label-api] error: POST /accounts - Fields 'name' and 'balance' are required.
+2020-07-31T01:40:00.082Z [my-label-api] info: API Started.
+2020-07-31T01:40:06.949Z [my-label-api] info: POST /accounts - {"id":3,"name":"Laura","balance":5500}
+2020-07-31T01:40:07.319Z [my-label-api] info: API Started.
+2020-07-31T01:40:11.825Z [my-label-api] info: API Started.
+2020-07-31T01:40:47.813Z [my-label-api] info: API Started.
+2020-07-31T01:40:53.050Z [my-label-api] info: API Started.
+2020-07-31T01:40:57.085Z [my-label-api] info: POST /accounts - {"id":4,"name":"Mathew","balance":0}
+2020-07-31T01:40:57.433Z [my-label-api] info: API Started.
+2020-07-31T01:41:01.965Z [my-label-api] info: API Started.
+2020-07-31T01:42:09.384Z [my-label-api] info: API Started.
+2020-07-31T01:42:15.838Z [my-label-api] info: API Started.
+2020-07-31T01:42:21.953Z [my-label-api] info: API Started.
+2020-07-31T01:42:27.899Z [my-label-api] info: API Started.
+2020-07-31T01:42:40.971Z [my-label-api] info: POST /accounts - {"id":5,"name":"Guiome","balance":0}
+2020-07-31T01:42:41.314Z [my-label-api] info: API Started.
+2020-07-31T01:42:49.564Z [my-label-api] info: API Started.
+2020-07-31T01:44:15.440Z [my-label-api] info: API Started.
+2020-07-31T01:44:22.874Z [my-label-api] info: API Started.
+2020-07-31T01:45:00.916Z [my-label-api] info: API Started.
+2020-07-31T01:45:06.901Z [my-label-api] info: API Started.
+2020-07-31T01:45:07.610Z [my-label-api] error: PUT /accounts - Couldn't find the record.
+2020-07-31T01:45:10.919Z [my-label-api] error: PUT /accounts - Couldn't find the record.
+2020-07-31T01:46:02.552Z [my-label-api] info: API Started.
+2020-07-31T01:46:08.631Z [my-label-api] info: API Started.
+2020-07-31T01:46:22.757Z [my-label-api] error: PUT /accounts - Fields 'name' and 'balance' are required.
+2020-07-31T01:46:26.277Z [my-label-api] error: PUT /accounts - Couldn't find the record.
+2020-07-31T01:46:57.418Z [my-label-api] info: API Started.
+2020-07-31T01:47:03.993Z [my-label-api] info: API Started.
+2020-07-31T01:47:10.101Z [my-label-api] info: PUT /accounts - {"id":5,"name":"Belly","balance":2500,"dfasda":345}
+2020-07-31T01:47:10.447Z [my-label-api] info: API Started.
+2020-07-31T01:47:15.427Z [my-label-api] info: API Started.
+2020-07-31T01:47:36.888Z [my-label-api] info: API Started.
+2020-07-31T01:47:39.329Z [my-label-api] info: PUT /accounts - {"id":5,"name":"Belly","balance":2500}
+2020-07-31T01:47:39.671Z [my-label-api] info: API Started.
+2020-07-31T01:47:44.189Z [my-label-api] info: API Started.
+2020-07-31T01:47:44.662Z [my-label-api] info: API Started.
+2020-07-31T01:48:33.920Z [my-label-api] info: API Started.
+2020-07-31T01:48:39.131Z [my-label-api] info: API Started.
+2020-07-31T01:48:40.644Z [my-label-api] info: PUT /accounts - {"id":5,"name":"Belly","balance":2500}
+2020-07-31T01:48:40.990Z [my-label-api] info: API Started.
+2020-07-31T01:48:46.011Z [my-label-api] error: PATCH /accounts - Couldn't find the record.
+2020-07-31T01:48:47.536Z [my-label-api] info: API Started.
+2020-07-31T01:51:10.644Z [my-label-api] info: API Started.
+2020-07-31T01:51:15.336Z [my-label-api] error: PATCH /accounts - Fields 'id' and 'balance' are required.
+2020-07-31T01:51:17.950Z [my-label-api] info: API Started.
+2020-07-31T01:52:09.243Z [my-label-api] info: API Started.
+2020-07-31T01:52:14.751Z [my-label-api] info: API Started.
+2020-07-31T01:52:15.036Z [my-label-api] error: PUT /accounts - Fields 'id', 'name' and 'balance' are required.
