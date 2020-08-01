@@ -4,17 +4,12 @@
 		{
 			"id": 1,
 			"name": "Guilherme",
-			"balance": 5000
+			"balance": 5500
 		},
 		{
 			"id": 2,
 			"name": "Mathew",
 			"balance": 54000
-		},
-		{
-			"id": 3,
-			"name": "Theodor",
-			"balance": 400
 		},
 		{
 			"id": 4,

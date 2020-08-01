@@ -2,6 +2,8 @@ import express from 'express';
 import accountsRouter from './routes/accounts.js';
 import { promises as fs } from 'fs';
 import winston from 'winston';
+import swaggerUi from 'swagger-ui-express';
+import { swaggerDocument } from './doc.js';
 
 const { readFile, writeFile } = fs;
 global.fileName = 'accounts.json';
@@ -22,6 +24,8 @@ global.logger = winston.createLogger({
 
 const app = express();
 app.use(express.json());
+
+app.use('/doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use('/accounts', accountsRouter);
 
