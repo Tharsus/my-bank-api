@@ -1,4 +1,4 @@
-export const swaggerDocument = {
+module.exports = {
   swagger: '2.0',
   info: {
     description: 'My Bank API description',
