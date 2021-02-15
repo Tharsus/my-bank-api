@@ -1,18 +1,6 @@
 {
-  "env": {
-    "commonjs": true,
-    "node": true
-  },
-  "extends": [
-    "airbnb",
-    "plugin:security/recommended",
-    "plugin:you-dont-need-lodash-underscore/compatible",
-    "prettier"
-  ],
-  "plugins": ["prettier", "security", "no-unsafe-regex"],
+  "parser": "babel-eslint",
   "rules": {
-    "prettier/prettier": ["error"],
-    "no-unsafe-regex/no-unsafe-regex": "error",
     "func-names": ["warn", "always", { "generators": "never" }],
     "no-underscore-dangle": "off",
     "camelcase": [
